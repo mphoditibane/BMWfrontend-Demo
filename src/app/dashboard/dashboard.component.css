@@ -1,5 +1,5 @@
 .toggle-box {
-  background : #dddbdb;
+  background : #d6d6d6;
   max-width: 80px;
   width: 100%;
   margin: auto;
@@ -11,30 +11,28 @@
 }
 
 .bg-grey {
-  background: #e6e4e4;
+  background: #d6d6d6;
 
 }
 
 .image-container {
-  background: #dddbdb;
+  background: #d6d6d6;
   /* max-width: calc(100% - 400px); */
   width: 100%;
-  height: 390px;
+  height: 270px;
 
 }
 
 .car-image {
   width: 100%;
-  height: 100%;
+  height: 165%;
   object-fit: cover;
   position: absolute;
-  top: 60px;
-  left: 50px;
+  top: -80px;
+  left: 89px;
 }
 .toggle-icon  {
   color: #dddbdb;
-
-
 }
 
 .gap-50 {
@@ -47,7 +45,7 @@
 
 }
 .vl {
-  border-right: 1px solid #1e1e1e;
+  border-right: 1px solid #929292;
   height: 30px;
 
 }
@@ -58,5 +56,39 @@
   border-bottom: 1px solid #1e1e1e;
   font-weight: bold;
 }
+.divider {
+  border-top: 1px solid #929292;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 
+.underline-custom {
+  position: relative;
+  text-decoration: none;
+  
+}
+.underline-custom::after {
+  content: '';
+  position: absolute;
+  width: 65%;
+  height: 1px;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  background-color: black;
+}
 
+.underline-text {
+  text-decoration: underline;
+}
+
+.underline-text::after {
+  content: '';
+  position: absolute;
+  width: 65%;
+  height: 1px;
+  bottom: 0;
+  text-align: center;
+  left: 0;
+  background-color: #929292;
+}

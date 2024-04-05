@@ -1,1 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: BMWTypeNextPro-Regular;
+    src: url(../src/assets/fonts/pro_otf/BMWTypeNextPro-Regular.otf);
+}
+
+@font-face {
+    font-family: BMWTypeNextPro-Bold;
+    src: url(../src/assets/fonts/pro_otf/BMWTypeNextPro-Bold.otf);
+}
+
+@font-face {
+    font-family: BMWTypeNextPro-Light;
+    src: url(../src/assets/fonts/pro_otf/BMWTypeNextPro-Light.otf);
+}
+
+@font-face {
+    font-family: BMWTypeNextProTT-Thin;
+    src: url(../src/assets/fonts/pro_ttf/BMWTypeNextProTT-Thin.ttf);
+}
+
+.BMWTypeNextPro-Regular{
+    font-family: BMWTypeNextPro-Regular;
+}
+.BMWTypeNextPro-Bold{
+    font-family: BMWTypeNextPro-Bold;
+}
+.BMWTypeNextPro-Light{
+    font-family: BMWTypeNextPro-Light;
+}
+.BMWTypeNextProTT-Thin{
+    font-family: BMWTypeNextProTT-Thin;
+}
